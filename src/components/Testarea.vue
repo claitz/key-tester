@@ -5,7 +5,7 @@
     id="testarea"
     cols="45"
     rows="2"
-    placeholder="Begin typing here to detect keys..."
+    placeholder="Focus this box and begin typing to test"
     ref="testarea"
     :value="testText"
     @input="updateTestText"
@@ -23,7 +23,13 @@ export default {
     detectKey(e) {
       // eslint-disable-next-line no-console
       console.log(e.code);
-      if (e.code === "Tab" || e.code === "F5") {
+      if (
+        e.code === "Tab" ||
+        e.code === "F5" ||
+        e.code === "ContextMenu" ||
+        e.code === "OSLeft" ||
+        e.code === "MetaLeft"
+      ) {
         e.preventDefault();
       }
       this.$store.commit("setActive", e.code);

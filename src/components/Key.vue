@@ -16,6 +16,10 @@
         'u5':    size === '5',
         'u6':    size === '6',
         'u7':    size === '7',
+        'u8':    size === '8',
+        'u9':    size === '9',
+        'u10':    size === '10',
+        'u11':    size === '11',
         pressed: isPressed
       }"
     >
@@ -83,6 +87,18 @@ export default {
 }
 .u7 {
   width: 10.5rem;
+}
+.u8 {
+  width: 13rem;
+}
+.u9 {
+  width: 14.5rem;
+}
+.u10 {
+  width: 16rem;
+}
+.u11 {
+  width: 17.5rem;
 }
 .pressed {
   transform: translateY(3px);

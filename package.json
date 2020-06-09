@@ -1,8 +1,8 @@
 {
-  "name": "key-tester",
-  "version": "1.0.0",
-  "description": "Test which keys on your keyboard are working. Upload your own keymap if you have one.",
-  "author": "Carlos Filoteo (c.filoteo@live.com)",
+  "name": "keyboard_tester",
+  "version": "0.0.1",
+  "description": "Keyboard tester with keymap upload capability.",
+  "author": "clait",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",

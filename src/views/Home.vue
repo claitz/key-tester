@@ -1,7 +1,7 @@
 <template>
   <div>
     <header>
-      <h1>Key Tester</h1>
+      <h1>Keyboard Tester</h1>
     </header>
     <main>
       <div class="container">
@@ -22,14 +22,15 @@
                 id="keymapSelector"
                 @change="changeMap"
                 :value="mapName">
-                <option value="apple">Standard (Mac)</option>
-                <option value="windows">Standard (Windows)</option>
-                <option value="orthodox">Orthodox</option>
+                <option value="60percent">60% ANSI</option>
+                <option value="windows">100% ANSI</option>
+                <option value="apple">Apple</option>
+                <!-- <option value="orthodox">Orthodox</option>
                 <option value="gherkin">Gherkin</option>
                 <option value="lets_split-default">Let's Split (default)</option>
                 <option value="iris">Iris</option>
                 <option value="atreus">Atreus</option>
-                <option value="gnap_ut47">Gnap (UT47)</option>
+                <option value="gnap_ut47">Gnap (UT47)</option> -->
               </select>
             </div>
             <MapUploader />

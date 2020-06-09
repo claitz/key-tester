@@ -1,6 +1,7 @@
 # Key Tester
 
-Test which keys on your keyboard are working. Upload your own keymap if you have one.
+Keyboard tester with keymap upload capability.
+Improved with new functions and more layouts.
 
 ![](key-tester-demo.gif)
 
@@ -12,7 +13,7 @@ Test which keys on your keyboard are working. Upload your own keymap if you have
 npm install
 
 # Serve with hot reload at localhost:8080
-npm run dev
+npm run serve
 
 # Production build
 npm run build
